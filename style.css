@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(34, 30, 30);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.wrapper{
+    height: 120px;
+    width: 100vw;
+    border:1px solid yellow;
+    border-right: pink;
+    background-color: rgb(98, 129, 119);
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: baseline;
+    align-items: center;
+    position: relative;
+    
+    box-shadow: 5px 5px 15px rgb(141, 141, 160);
+    
+}
+#blogs{
+    margin-left: 15rem;
+    color: mediumspringgreen;
+}
+#blogs:hover{
+    color: saddlebrown;
+}
+h2{
+    margin-left: 100px;
+   color: rgb(11, 102, 230);
+   text-align: justify;
+}
+.blog{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin-left: 16rem;
+    /* border: 4px solid blueviolet; */
+    color: deeppink;
+    font-size: larger;
+    gap: 10px;
+    margin-top: 25px;
+}
+#link{
+    margin-left: 15px;
+    color: lime;
+    margin-left: 15px;
+}
+#sub{
+    font-weight: 900;
+    font-size: larger;
+}
+
+h3{
+    color: rgb(77, 69, 69);
+    margin-left: 15px;
+}
+
+p{
+    margin-left: 15px;
+    color: aqua;
+}
+p:hover{
+    color: yellow;
+    background-color: lightseagreen;
+    border-radius: 70px;
+    margin-right: 5px;
+
+}
+
+#link1{
+    margin-left: 15px;
+    color: rgb(12, 64, 59);
+}
+#link1:hover{
+    color: brown;
+}
+#box1{
+    height: 180px;
+    width: 350px;
+    border: 2px solid rgb(87, 54, 87);
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(75, 71, 71);
+}
+#box2{
+    height: 180px;
+    width: 350px;
+    border: 2px solid rgb(87, 54, 87);
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(75, 71, 71);
+}
+#box3{
+    height: 180px;
+    width: 350px;
+    border: 2px solid rgb(87, 54, 87);
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(75, 71, 71);
+}
+#box4{
+    height: 180px;
+    width: 350px;
+    border: 2px solid rgb(87, 54, 87);
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(75, 71, 71);
+}
+#box5{
+    height: 180px;
+    width: 350px;
+    border: 2px solid rgb(87, 54, 87);
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(75, 71, 71);
+}
+#box6{
+    height: 180px;
+    width: 350px;
+    border: 2px solid rgb(87, 54, 87);
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(75, 71, 71);
+}
